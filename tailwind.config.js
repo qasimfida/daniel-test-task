@@ -17,7 +17,8 @@ module.exports = {
         custom: ["Druk", "sans"], // 'sans' is a fallback font if your custom font is unavailable
       },
       backgroundImage: theme => ({
-        'gradient-to-right-bottom': 'linear-gradient(to right bottom, rgb(133 136 231 / 80%), rgb(65 65 70 / 80%), rgb(109 111 132 / 80%))',
+        'gradient-to-right-bottom': 'linear-gradient(to right bottom, rgb(0 131 254 / 80%), rgb(43 45 66 / 80%), rgb(109 111 132 / 80%))',
+        'gradient-radial': 'radial-gradient(circle at 32% -40%, rgb(0 131 254 / 80%), rgb(43 45 66 / 80%), rgb(109 111 132 / 80%))'
       }),
     },
     colors: {
