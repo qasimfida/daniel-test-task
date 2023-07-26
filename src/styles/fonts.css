@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Druk';
+    src: url('/fonts/FontsFree-Net-Druk-Wide-Bold.ttf') format('truetype');
+    /* Add additional font formats if necessary (e.g., woff2, eot, svg) */
+    font-weight: 400; /* Font weight (optional) */
+    font-style: normal; /* Font style (optional) */
+  }
