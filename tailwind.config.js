@@ -18,7 +18,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'gradient-to-right-bottom': 'linear-gradient(to right bottom, rgb(0 131 254 / 80%), rgb(43 45 66 / 80%), rgb(109 111 132 / 80%))',
-        'gradient-radial': 'radial-gradient(circle at 32% -40%, rgb(0 131 254 / 80%), rgb(43 45 66 / 80%), rgb(109 111 132 / 80%))'
+        'gradient-radial': 'radial-gradient(circle at 33% -40%, rgb(0 131 254 / 100%), rgb(43 45 66 / 80%), rgb(109 111 132 / 80%))'
       }),
     },
     colors: {
