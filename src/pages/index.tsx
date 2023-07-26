@@ -6,7 +6,7 @@ const rubik = Rubik({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen items-center justify-center bg-navyblue ${inter.className}`}>
+      className={`flex min-h-screen items-center justify-center bg-gradient-to-right-bottom ${inter.className}`}>
       <div className="relative w-[1200px] h-[618px] m-auto flex ">
         <Image
           src={"/images/rectangle.png"}
