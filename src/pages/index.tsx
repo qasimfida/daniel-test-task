@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main
       className={`flex min-h-screen items-center justify-center bg-navyblue ${inter.className}`}>
-      
       <div className="relative w-[1200px] h-[618px] m-auto flex ">
         <Image
           src={"/images/rectangle.png"}
@@ -15,13 +14,13 @@ export default function Home() {
           width={420}
           height={618}
         />
-
         <div>
           <h1 className="absolute top-[5%] left-[14%] text-[68px] font-bold leading-[94px] font-custom not-italic font-bold">
             Turn Your Website <br></br> Into Your Best Sales <br></br> Person
           </h1>
           <div>
-            <p className={`absolute top-[55%] right-[167px] text-[22px] not-italic font-light leading-[33px] ${rubik.className}`}>
+            <p
+              className={`absolute top-[55%] right-[167px] text-[22px] not-italic font-light leading-[33px] ${rubik.className}`}>
               Triple your sales with a pixel-perfect website. <br></br> At
               SmartSite Studio, we don’t just design and write code, <br></br>{" "}
               we build a revenue-driving machine for your business.
